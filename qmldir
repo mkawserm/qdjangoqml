@@ -1,0 +1,3 @@
+module QDjangoQML
+plugin QDjangoQML
+typeinfo QDjangoQML.qmltypes
