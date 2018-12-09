@@ -1,11 +1,14 @@
 TEMPLATE = lib
 TARGET = QDjangoQML
 QT += qml quick
+QT += sql
+
 CONFIG += plugin c++11
 
 TARGET = $$qtLibraryTarget($$TARGET)
 uri = QDjangoQML
 
+include(qdjango.pri)
 # Input
 SOURCES += \
         qdjangoqml_plugin.cpp \
