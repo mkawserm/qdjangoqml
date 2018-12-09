@@ -1,0 +1,3 @@
+[submodule "qdjango"]
+	path = qdjango
+	url = https://github.com/mkawserm/qdjango.git
