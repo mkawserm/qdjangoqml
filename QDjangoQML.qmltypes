@@ -13,5 +13,33 @@ Module {
         prototype: "QObject"
         exports: ["QDjangoQML/QDjangoORM 1.0"]
         exportMetaObjectRevisions: [0]
+        Property { name: "dbName"; type: "string" }
+        Property { name: "dbDriver"; type: "string" }
+        Signal {
+            name: "dbNameChanged"
+            Parameter { name: "dbName"; type: "string" }
+        }
+        Signal {
+            name: "dbDriverChanged"
+            Parameter { name: "dbDriver"; type: "string" }
+        }
+        Method {
+            name: "setDb"
+            Parameter { name: "dbName"; type: "string" }
+            Parameter { name: "dbDriver"; type: "string" }
+        }
+        Method {
+            name: "setDb"
+            Parameter { name: "dbName"; type: "string" }
+        }
+        Method { name: "test" }
+        Method {
+            name: "setDbName"
+            Parameter { name: "dbName"; type: "string" }
+        }
+        Method {
+            name: "setDbDriver"
+            Parameter { name: "dbDriver"; type: "string" }
+        }
     }
 }

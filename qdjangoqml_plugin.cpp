@@ -5,7 +5,7 @@
 
 void QDjangoQMLPlugin::registerTypes(const char *uri)
 {
-    // @uri QDjangoORM
+    // @uri QDjangoQML
     qmlRegisterType<QDjangoORM>(uri, 1, 0, "QDjangoORM");
 }
 
